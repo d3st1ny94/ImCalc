@@ -361,7 +361,7 @@ int main(int, char**)
             ImGui::DragFloat("Reference", &fill_ref, 1, -100, 500);
 
             ImPlot::SetNextPlotLimits(-5, 5, -5, 5);
-            if (ImPlot::BeginPlot("Stock Prices", "Days", "Price")) {
+            if (ImPlot::BeginPlot("", "X", "Y")) {
                 if (show_fills) {
                     ImPlot::PushStyleVar(ImPlotStyleVar_FillAlpha, 0.25f);
                     ImPlot::PlotShaded("Fill", graphX, graphY, GRAPH_SIZE, fill_ref);
