@@ -4,7 +4,26 @@
 
 ImCalc is an [ImGui](https://github.com/ocornut/imgui) graphing calculator with infinite precision. Be careful with the exponents!
 
+**usage**
 double multiplication (**) is evaluated to power/exponent x^n, x<sup>n</sup>
+
+**integer math is assumed when no decimal is provided on either operand. some functions will automatically return real numbers**
+input                 output 
+10/3                     (3)
+10/3.0         (3.333333333)
+
+variable declarations available
+input                 output 
+myvar = 6                (6)
+myvar / 3                (2)
+
+boolean evaluation and comparison operators available
+
+input                 output 
+2 <= 6                (true)
+true and false       (false)
+true or false         (true)
+
 
 ee_dll.dll is an external math library that I wrote for a project, unfortunately I cannot release the source for this since it is
 the answer for the project..
