@@ -49,6 +49,7 @@ TODO:
 ```
 - [ ] clean up prototype from example comments/etc
 - [ ] clean up code and use a more Object Oriented approach to manage the window loop
+- [ ] document current features in more detail (xnor, xor, etc)
 - [ ] add more features such as bitwise operators.
 - [ ] ??
 - [ ] profit
