@@ -117,6 +117,9 @@ static void fillGraph() {
 }
 int main(int, char**)
 {
+#ifdef _MSC_VER
+    FreeConsole();
+#endif
     // Setup window
     glfwSetErrorCallback(glfw_error_callback);
     if (!glfwInit())
