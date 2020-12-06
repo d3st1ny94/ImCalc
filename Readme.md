@@ -1,28 +1,36 @@
 ![imcalc](https://user-images.githubusercontent.com/20073598/101269513-90fd8a80-373d-11eb-9e91-d71f30afb137.gif)
 
-**ImCalc**
+# **ImCalc**
 
 ImCalc is an [ImGui](https://github.com/ocornut/imgui) graphing calculator with infinite precision. Be careful with the exponents!
 
-**usage**
+## **usage**
 double multiplication (**) is evaluated to power/exponent x^n, x<sup>n</sup>
 
-**integer math is assumed when no decimal is provided on either operand. some functions will automatically return real numbers**
+### **integer math is assumed when no decimal is provided on either operand. some functions will automatically return real numbers**
+
+<pre>
 input                 output 
 10/3                     (3)
 10/3.0         (3.333333333)
+</pre>
 
-variable declarations available
+### **variable declarations available**
+
+<pre>
 input                 output 
 myvar = 6                (6)
 myvar / 3                (2)
+</pre>
 
-boolean evaluation and comparison operators available
+### **boolean evaluation and comparison operators available**
 
+<pre>
 input                 output 
 2 <= 6                (true)
 true and false       (false)
 true or false         (true)
+</pre>
 
 
 ee_dll.dll is an external math library that I wrote for a project, unfortunately I cannot release the source for this since it is
@@ -36,3 +44,13 @@ Building:
 should be able to just open solution and build. default is a 64 bit version of the dll, however there is a 32 bit version included. just rename ee_dll##.dll to ee_dll.dll
 
 for linux libraries. add rename libee_dll##.so to libee_dll.so and link it. Also ensure that you add the library to LD_LIBRARY_PATH for you to be able to run it.
+
+TODO:
+```
+- [ ] clean up prototype from example comments/etc
+- [ ] clean up code and use a more Object Oriented approach to manage the window loop
+- [ ] document current features in more detail (xnor, xor, etc)
+- [ ] add more features such as bitwise operators.
+- [ ] ??
+- [ ] profit
+```
