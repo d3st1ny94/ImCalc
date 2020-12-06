@@ -14,6 +14,6 @@ This project was inspired by my friend WerWolv who made a very nice app called [
 
 Building:
 
-should be able to just open solution and build.
+should be able to just open solution and build. default is a 64 bit version of the dll, however there is a 32 bit version included. just rename ee_dll##.dll to ee_dll.dll
 
 for linux libraries. add rename libee_dll##.so to libee_dll.so and link it. Also ensure that you add the library to LD_LIBRARY_PATH for you to be able to run it.

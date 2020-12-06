@@ -186,7 +186,6 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="imgui\misc\natvis\imgui.natvis" />
-    <None Include="imgui\README.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
