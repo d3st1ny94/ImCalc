@@ -44,3 +44,12 @@ Building:
 should be able to just open solution and build. default is a 64 bit version of the dll, however there is a 32 bit version included. just rename ee_dll##.dll to ee_dll.dll
 
 for linux libraries. add rename libee_dll##.so to libee_dll.so and link it. Also ensure that you add the library to LD_LIBRARY_PATH for you to be able to run it.
+
+TODO:
+```
+- [ ] clean up prototype from example comments/etc
+- [ ] clean up code and use a more Object Oriented approach to manage the window loop
+- [ ] add more features such as bitwise operators.
+- [ ] ??
+- [ ] profit
+```
